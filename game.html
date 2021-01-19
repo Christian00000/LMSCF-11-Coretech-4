@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="./css/game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="headerflex">
+                <div class="headerdiv">
+                    <a href="index.html" title="Home" class="navlink">HOME</a>
+                </div>
+                <div class="headerdiv">
+                    <a href="contact.html" title="Home" class="navlink">CONTACT</a>
+                </div>
+                <div class="headerdiv" id="logotxt">
+                    <img src="./img/logo.png" alt="logo" id="logo">
+                    <h1>TEAM 4</h1>
+                </div>
+                <div class="headerdiv">
+                    <a href="game.html" title="Home" class="navlink">GAME</a>
+                </div>
+                <div class="headerdiv" id="dropdown">
+                    <span>
+                    <p class="navlink">TEAM</p>
+                </span>
+                    <div class="dropdown-content">
+                        <a href="profile1.html" title="Team" class="droplink">KIMBERLEY<br></a>
+                        <a href="profile2.html" title="Team" class="droplink">DOMINIK<br></a>
+                        <a href="profile3.html" title="Team" class="droplink">CHRISTIAN<br></a>
+                        <a href="profile4.html" title="Team" class="droplink">STEPHAN<br></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h1>SNAKE</h1>
+            <div id="teamcontainer">
+                <canvas width="400" height="400" id="game"></canvas>
+            </div>
+        </main>
+        <footer>
+            <div class="footerflex">
+                <a href="https://www.codefactory.wien/" title="CodeFactory Vienna" target="_blank" class="footerlogolink">
+                    <div id="footerimg"></div>
+                </a>
+            </div>
+        </footer>
+
+        <script src="./js/game.js"></script>
+    </div>
+
+
+</body>
+
+</html>
